@@ -1,0 +1,91 @@
+/* this is top bar / sidebar styling page which is agains sidebar,tsx code styling */
+.h-heading {
+  color: rgb(82, 82, 82);
+  padding: 0 1rem;
+  margin-bottom: -8rem;
+  height: 10rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.secondary-heading {
+  text-align: center;
+  counter-reset: grey;
+}
+/* search bar */
+.search-pad {
+  position: relative;
+  height: 1rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-pad .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #ccc;
+  width: 14rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  font-size: 1.3rem;
+  padding: 0.2rem;
+}
+.search-pad :hover {
+  border: 0.1rem solid cornflowerblue;
+}
+.search-pad .bar {
+  outline: none;
+  border: none;
+  caret-color: cornflowerblue;
+  color: grey;
+  font-size: 1rem;
+}
+
+.search-pad .search .search-logo {
+  font-size: 1rem;
+  color: #adacac;
+}
+.header {
+  /* background-color: rgb(219, 242, 250); */
+  border-radius: 1rem;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-decoration: none;
+}
+nav a {
+  color: rgb(77, 77, 77);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  outline: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+nav a:hover {
+  background-color: rgb(114, 138, 182);
+
+  color: #fff;
+}
+.header .header-menu nav .active {
+  background-color: rgb(111, 149, 219);
+  box-shadow: 0px 6.5px 7px rgba(134, 134, 134, 0.177);
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
+.black-box {
+  border: 0.1rem solid;
+  width: 100%;
+}

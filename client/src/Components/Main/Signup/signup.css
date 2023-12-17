@@ -1,0 +1,101 @@
+body {
+  --main: rgb(134, 177, 179);
+  --seconadry: #ccc;
+  --tertiary: grey;
+  --highlight: cornflowerblue;
+  --evil: rgb(49, 49, 49);
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+.detail-page {
+  width: 20rem;
+  height: 23rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 5rem auto;
+  box-shadow: 0 0.5px 8px rgba(0, 0, 0, 0.188);
+}
+
+.main-page {
+  height: 1rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 1rem;
+  background-color: var(--highlight);
+  z-index: 1;
+}
+
+.main-page h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  position: relative;
+  top: -1.5rem;
+  width: 100%;
+}
+
+.label-bar {
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 0;
+}
+.main-page > svg {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.field {
+  outline: none;
+  border: 0.1rem solid #b1b1b1;
+  padding: 0.4rem 0.6rem;
+  color: grey;
+  border-radius: 0.2rem;
+  width: 80%;
+  font-size: 1rem;
+}
+
+.field:focus {
+  border: 0.1rem solid var(--highlight);
+}
+
+.main-page .btn {
+  bottom: -4.5rem;
+  position: relative;
+  outline: none;
+  color: white;
+  background-color: var(--highlight);
+  border: none;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main-page .btn:hover {
+  opacity: 0.7;
+  box-shadow: 0 0.4rem 0.6rem rgba(102, 102, 102, 0.188);
+}
+.main-page .navigate-link {
+  color: var(--tertiary);
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 1rem;
+}
+.main-page .navigate-link a {
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+.main-page .navigate-link a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}

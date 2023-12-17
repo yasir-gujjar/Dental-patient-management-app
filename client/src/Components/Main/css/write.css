@@ -1,0 +1,67 @@
+.page {
+  padding: 1.2rem;
+  position: relative;
+  top: 0;
+  width: 25rem;
+  margin: 0 auto;
+  box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.177);
+  /* border: 0.1rem solid rgb(192, 192, 192);  */
+}
+.page .main {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.page .main .l {
+  color: rgb(122, 122, 122);
+  float: inline-start;
+  display: flex;
+  align-items: start;
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: large;
+  text-transform: capitalize;
+}
+.brand-name {
+  margin: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sup-point {
+  color: grey;
+  margin-top: 1rem;
+  border-bottom: 0.1rem solid grey;
+}
+.page .field {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0.5rem 0;
+  position: relative;
+  left: 10rem;
+  top: -2rem;
+  font-size: 1rem;
+  color: black;
+  width: 12rem;
+  caret-color: cornflowerblue;
+}
+.page .price {
+  position: relative;
+  top: -4.1rem;
+  left: 8.2rem;
+  width: 2rem;
+}
+.nanosoft {
+  position: relative;
+  left: -1rem;
+  margin: 2rem auto;
+  font-size: 1rem;
+  display: flex;
+  align-items: start;
+}
+.sms .field {
+  border: 0.1rem solid #ccc;
+}
